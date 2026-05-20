@@ -1,36 +1,3 @@
-# from dotenv import load_dotenv
-# from langchain.chat_models import init_chat_model
-# from langchain_community.document_loaders import TextLoader
-# from langchain_core.prompts import ChatPromptTemplate
-# from langchain_community.document_loaders import PyPDFLoader
-# from langchain_text_splitters import RecursiveCharacterTextSplitter
-# load_dotenv()
-
-# # data= PyPDFLoader("document loader/Fundamentals Of Deep Learning PDF.pdf")
-# # docs= data.load()
-
-# # spliter=RecursiveCharacterTextSplitter(
-# #     chunk_size=1000,
-# #     chunk_overlap=200
-# # )
-
-# # chunks=spliter.split_documents(docs)
-
-# template=ChatPromptTemplate.from_messages([
-#     ("system","you are an AI that summarizes the text"),
-#     ("human","{data}")
-# ])
-
-# # prompt=template.format_messages(data=docs[0].page_content)
-
-# model = init_chat_model("mistral-small-2506")
-
-# # result=model.invoke(prompt)
-# # print(result.content)
-
-
-
-
 from dotenv import load_dotenv
 from langchain_mistralai import MistralAIEmbeddings
 from langchain_community.vectorstores import Chroma
