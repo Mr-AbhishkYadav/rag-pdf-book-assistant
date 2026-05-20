@@ -11,4 +11,4 @@ An intelligent, context-aware document assistant that allows you to have a conve
 * **LLM & Embeddings:** Mistral AI (`mistral-small-latest` & `mistral-embed`)
 * **Vector Store:** Chroma DB
 * **Document Loader:** PyPDF
-*
+
